@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color:#ffffff;
+font-family: 'Hanken Grotesk', sans-serif;
+p:18px
+}
+#result-page{
+border: 1px solid black ;
+height: 350px;
+background-image: linear-gradient(#7957ff,#2e2be9);
+color: #ffffff;
+border-radius: 30px;
+}
+#result-page h3{
+    text-align: center;
+    margin-top: 20px;
+    color:#c8c7ff ;
+    
+}
+#circle{
+    background-color:hsla(256, 72%, 46%, 1) ;
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+#circle-content {
+text-align: center;
+}
+#circle-content h1{
+    padding-top: 15px;
+    font-size:40px;
+}
+#circle-content p{
+    color:#c8c7ff ;
+    
+}
+
+#result-page h2{
+    text-align: center;
+    margin-top:40px ;
+
+}
+#result-page p{
+    text-align: center;
+    color: #c8c7ff;
+    padding: 25px;
+    
+}
+
+#bottom-page{
+    border: 1px ;
+height: 380px;
+padding: 20px;
+}
+#summary-1 #summary-2 #summary-3 #summary-4 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#summary-1{
+    height: 50px;
+        width: 340px;
+    background:rgba(200,0,19,0.1);
+    margin-top: 20px;
+    color:#ff5757; 
+}
+#summary-2{
+height: 50px;
+    width: 340px;
+    background-color:rgba(255, 177,47,0.1);
+    margin-top: 10px;
+    color:#ffb11f;
+}
+#summary-3{
+    height: 50px;
+   width: 340px;
+    background-color:rgba(0,189,145,0.1);
+    margin-top: 10px;
+    color:#00bd91 ;
+}
+#summary-4{
+height: 50px;
+    width: 340px;
+    background-color:rgba(17, 37, 212, 0.1);
+    margin-top: 10px;
+    color:#1125d4 ;
+
+}
+#summary-1, #summary-2, #summary-3, #summary-4{
+    border-radius: 10px;
+
+}
+
+#icon{
+    display: flex;    
+}
+#icon img{
+  margin-top: 14px;  
+  margin-left: 10px;
+}
+#icon-text{
+margin-top: 15px;
+margin-left:10px;
+}
+
+
+#right-txt {
+    margin-top: 15px;
+    margin-left: 150px;  
+}
+#right-txt1{
+    margin-top: 15px;
+    margin-left: 165px;
+}
+#score, #total{
+    display: inline-block; 
+   
+}
+#score {
+ color: #303b5a;   
+}
+#total{
+  color:#c8c7ff ;
+}
+
+#bottom-page button{
+    width:320px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 100px;
+    background-color: #303b5a;
+    color: #ffffff;
+}
+@media (min-width: 576px) {
+  #container{
+    display: flex;
+    max-width: 668px;
+    max-height: px;
+    padding-top: 200px;
+    margin: 0 auto;
+    
+  }
+  #result-page{
+   height: 380px;
+  }
+  #bottom-page{
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 1px rgba(0,9,0,0.2);
+  }
+
+}
